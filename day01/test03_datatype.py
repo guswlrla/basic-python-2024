@@ -2,7 +2,7 @@
 # desc : 자료형
 
 ## 기본자료형 - 숫자형, 문자형, 불형, None형
-## 복합자료형 - 리스트형, 튜플형, 딕셔너리, 집합
+## 복합자료형 - 리스트형, 튜플형, 딕셔너리, 집합 (복합자료형은 뒤에)
 
 ## None형 == null(C, C++, C#, Java, SQL)
 ## 값은 값인데 아무것도 지정할 수 없는 값 => None
@@ -64,5 +64,3 @@ print(type(test_val))
 print(type(hex255))
 print(type(greeting))
 print(type(isCheck))
-
-
