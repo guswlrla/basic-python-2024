@@ -19,7 +19,7 @@ class car :
 
     def moveRight(self):
         print(f'{self.__plate_num}이 우회전합니다.')
-    # 생성자를 변경했으니까, 변경된 생성자료 호출
+    # 생성자를 변경했으니까, 변경된 생성자로 호출
     def __init__(self, plate_num, company, color, gear_type) -> None:
         self.__plate_num = plate_num
         self.company = company
@@ -47,7 +47,7 @@ print(sarah)
 
 sarah.__plate_num = '99하 77989' # 초보의 실수
 print(sarah)
-sarah.setPlateNumber = '65하 4324' # 클래스에 인정받은 동작으로 값을 바꾸기 !!!!!!이거 이상함
+sarah.setPlateNumber('65로 4324') # 클래스에 인정받은 동작으로 값을 바꾸기
 print(sarah)
 # csuv = car('경남88 1922', '기아자동차', '회색', '자동')
 # print(f'차 번호는 {csuv.plate_num}')
