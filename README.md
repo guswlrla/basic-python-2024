@@ -89,8 +89,17 @@
         return 0 
     ```
     - 텍스트 파일 입출력
+
+    ```python
+    f = open('파일명', mode = 'rwa', encoding = 'cp949 utf-8') # 이거 바꾸기!!!!
+    f.read()
+    f.readline() # 읽기
+    f.write('text') # 쓰기
+    f.close() # 파일은 반드시 닫는다.
+    ```
 - 파이썬 활용
     - 주피터 노트북
+        - Ctrl + shift + P (명령팔레트)로 시작
  
  
  
