@@ -15,11 +15,11 @@ class qtwin_exam(QWidget):
         self.btnStart.clicked.connect(self.btnStartClicked) # ui 파일 내에 있는 위젯접근은 VSCode 상에서 표시x
 
     def btnStartClicked(self):
-        maxval = 101
+        maxVal = 1000001
         print('시작버튼 클릭')
         self.pgbTask.setValue(0) # 프로그레스바 0부터 시작
-        self.pgbTask.setRange(0, maxval-1) # 0부터 100까지
-        for i in range(maxval): # 0 ~ 100까지
+        self.pgbTask.setRange(0, maxVal-1) # 0부터 100까지
+        for i in range(maxVal): # 0 ~ 100까지
             print_str = f'노쓰레드 출력 >> {i}'
             print(print_str)
             self.txbLog.append(print_str)
@@ -37,4 +37,3 @@ if __name__ == '__main__':
     istance = qtwin_exam()
     istance.show()
     loop.exec_()
-    
