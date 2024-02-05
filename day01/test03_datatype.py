@@ -59,7 +59,6 @@ print(answer)
 ## 자료형이 어떤 타입인지 체크
 print(type(apple))
 print(type(hundred))
-print(type(hundred))
 print(type(test_val))
 print(type(hex255))
 print(type(greeting))
